@@ -92,7 +92,7 @@ namespace BlueArmCPC
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("http://github.com/bart02");
+            System.Diagnostics.Process.Start("https://github.com/bart02/BlueArmCPC");
         }
     }
 }
