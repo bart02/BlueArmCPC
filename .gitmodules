@@ -1,0 +1,3 @@
+[submodule "Arduino Sketch/VarSpeedServo"]
+	path = Arduino Sketch/VarSpeedServo
+	url = https://github.com/netlabtoolkit/VarSpeedServo
