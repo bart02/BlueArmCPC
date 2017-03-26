@@ -1,5 +1,8 @@
-#include <Servo.h> 
-Servo myservo9;
+#include <VarSpeedServo.h>
+ 
+VarSpeedServo myservo9;
+
+#define SPEED 50
 
 String message;
 int jh;
@@ -32,5 +35,5 @@ void loop() {
       //otpravka na motori
     }
   }
-  myservo9.write(asd[0]);
+  myservo9.write(asd[0], SPEED, false);
 }
