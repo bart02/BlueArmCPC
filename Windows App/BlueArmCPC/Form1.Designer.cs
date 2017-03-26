@@ -69,7 +69,7 @@
             this.textBox2.Location = new System.Drawing.Point(262, 214);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 22);
-            this.textBox2.TabIndex = 6;
+            this.textBox2.TabIndex = 4;
             // 
             // textBox3
             // 
@@ -77,7 +77,7 @@
             this.textBox3.Location = new System.Drawing.Point(262, 267);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 22);
-            this.textBox3.TabIndex = 7;
+            this.textBox3.TabIndex = 5;
             // 
             // textBox4
             // 
@@ -85,7 +85,7 @@
             this.textBox4.Location = new System.Drawing.Point(262, 365);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 22);
-            this.textBox4.TabIndex = 8;
+            this.textBox4.TabIndex = 6;
             // 
             // textBox5
             // 
@@ -93,7 +93,7 @@
             this.textBox5.Location = new System.Drawing.Point(262, 476);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 22);
-            this.textBox5.TabIndex = 9;
+            this.textBox5.TabIndex = 7;
             // 
             // button3
             // 
@@ -123,7 +123,7 @@
             this.numericUpDown1.Location = new System.Drawing.Point(262, 137);
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(100, 22);
-            this.numericUpDown1.TabIndex = 11;
+            this.numericUpDown1.TabIndex = 3;
             this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
             // textBox1
@@ -132,7 +132,7 @@
             this.textBox1.Location = new System.Drawing.Point(262, 559);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 22);
-            this.textBox1.TabIndex = 9;
+            this.textBox1.TabIndex = 8;
             // 
             // linkLabel1
             // 
