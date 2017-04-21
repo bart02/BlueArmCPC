@@ -1,6 +1,7 @@
 #include <VarSpeedServo.h>
  
-VarSpeedServo myservo9;
+VarSpeedServo ocn;
+VarSpeedServo lokot;
 
 #define SPEED 50
 
@@ -14,7 +15,9 @@ int asd[5];
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
-  myservo9.attach(9);
+  ocn.attach(2);
+  lokot.attach(4);
+  Serial.println("(RE)START");
 }
 
 void loop() {
@@ -35,5 +38,6 @@ void loop() {
       //otpravka na motori
     }
   }
-  myservo9.write(asd[0], SPEED, false);
+  ocn.write(asd[0], SPEED, false);
+  lokot.write(asd[1], SPEED, false);
 }
